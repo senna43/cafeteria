@@ -1,0 +1,266 @@
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.mensagem-boas-vindas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #260505;
+    padding: 10px 0;
+}
+
+.mensagem-boas-vindas .texto {
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+header {
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 30px;
+    font-size: 20px;
+    z-index: 100;
+}
+
+header .logo-conteiner img {
+    width: 70px;
+    border-radius: 100%;
+}
+
+header .separador {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .links-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .links-conteiner ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header .links-conteiner li {
+    margin-left: 18px;
+}
+
+header .links-conteiner li a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+header .links-conteiner li a i {
+    font-size: 13px;
+}
+
+header .menu-conteiner {
+    margin-left: 60px;
+}
+
+.c-propaganda {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.c-propaganda img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: -1;
+}
+
+.c-propaganda .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px 190px;
+    position: absolute;
+}
+
+.creditos {
+    text-align: right;
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+.c-propaganda .conteudo .texto {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.c-propaganda .conteudo button {
+    width: 110px;
+    height: 45px;
+    font-size: 15px;
+    margin-top: 15px;
+    background: none;
+    border: 1px solid beige;
+    color: white;
+}
+
+.selecao-do-dia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 35px;
+    margin: 30px 0;
+}
+
+.selecao-do-dia .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.selecao-do-dia .conteudo section img {
+    width: 380px;
+    height: auto;
+}
+
+.selecao-do-dia .conteudo .creditos {
+    text-align: right;
+    font-size: 10px;
+    font-weight: 600;
+    opacity: 70%;
+}
+
+.selecao-do-dia .conteudo .conteiner-2 {
+    padding-left: 80px;
+    padding-right: 100px;
+}
+
+.selecao-do-dia .conteudo .titulo {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 70%;
+}
+
+.selecao-do-dia .conteudo .descricao {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.selecao-do-dia .conteudo .cardapio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #0D0D0D;
+    border: none;
+    font-weight: 400;
+    padding: 0 5px;
+    font-size: 15px;
+    color: white;
+    width: 100px;
+    height: 35px;
+}
+
+.selecao-do-dia .conteudo i {
+    margin-left: 5px;
+    font-size: 10px;
+}
+
+.selecao-do-dia .conteudo .imagem-produtos {
+    display: none;
+    align-items: flex-start;
+    list-style: none;
+    padding: none;
+    margin: none;
+}
+
+.selecao-do-dia .conteudo .imagem-produtos li {
+    margin-right: 20px;
+}
+
+.selecao-do-dia .conteiner-2 .imagem {
+    width: 110px;
+    height: 95px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+footer img {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(30%);
+    z-index: -1;
+}
+
+
+footer .conteudo .texto {
+    
+}
+
+footer .conteudo button {
+    width: 110px;
+    height: 45px;
+    font-size: 15px;
+    margin-top: 15px;
+    background: none;
+    border: 1px solid beige;
+    color: white;
+}
+
+footer .conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 190px;
+    position: absolute;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: 15px;
+}
+
+footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer .redes-sociais a {
+    font-size: 14px;
+}
