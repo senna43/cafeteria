@@ -25,6 +25,11 @@ header {
     padding: 15px 45px;
 }
 
+header .title {
+    display: none;
+    font-weight: 600;
+}
+
 header .c-logo img {
     height: 80px;
     border-radius: 50%;
@@ -264,4 +269,117 @@ footer .copyright-text {
     font-size: 15px;
     font-weight: 600;
     color: white;
+}
+
+@media (max-width: 800px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    header {
+        padding: 10px 35px;
+    }
+
+    header .title {
+        display: block;
+    }
+
+    header .c-logo img {
+        height: 90px;
+        width: 100%;
+    }
+
+    header section .c-links {
+        display: none;
+    }
+
+    header .c-menu i {
+        font-size: 30px;
+    }
+
+    .delivery-ad .background-img {
+        height: 200px;
+    }
+
+    .delivery-ad section {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .delivery-ad section .text {
+        padding: 0 25px;
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    .container-style {
+        padding: 25px;
+    }
+
+    .container-style .container-post {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-style .container-post .photo {
+        width: 100%;
+    }
+
+    .container-style .container-post .photo .credits {
+        font-size: 8px;
+        font-weight: 600;
+        text-align: right;
+        opacity: 80%;
+    }
+
+    .container-style .container-post img {
+        width: 300px;
+        height: auto;
+    }
+
+    .container-style .container-post .info {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .container-style .container-post .info .title {
+        font-size: 12px;
+    }
+
+    .container-style .container-post .info .text {
+        font-size: 12px;
+        font-weight: 600;
+        margin: 15px 0;
+        padding: 0;
+    }
+
+    .container-style .container-post .info .call-to-action {
+        background: none;
+        border: 1px solid black;
+        font-size: 15px;
+        font-weight: 600;
+        width: 120px;
+        padding: 10px;
+    }
+
+    footer .content {
+        padding: 15px  30px;
+    }
+
+    footer .content, .networks, .more {
+        font-size: 15px;
+    }
+
+    footer .content .copyright-text {
+        font-size: 15px;
+    }
 }
