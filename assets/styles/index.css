@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
 * {
     font-family: "Poppins", sans-serif;
     padding: 0;
@@ -27,6 +29,11 @@ header {
 
 header .title {
     display: none;
+}
+
+header .title .text {
+    font-size: 20px;
+    font-family: "UnifrakturCook";
     font-weight: 600;
 }
 
@@ -81,6 +88,7 @@ header .c-menu i {
 }
 
 .delivery-ad .background-img {
+    object-fit: cover;
     filter: brightness(10%);
     position: absolute;
     width: 100%;
@@ -296,7 +304,11 @@ footer .copyright-text {
     }
 
     header .c-menu i {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .credits .author {
+        font-size: 8px;
     }
 
     .delivery-ad .background-img {
